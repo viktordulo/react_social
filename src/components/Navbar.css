@@ -1,0 +1,62 @@
+.nav {
+    grid-area: n;
+    background: rgba(51, 48, 56, 0.644);
+  }
+  
+  .nav ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    height: 40vh;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+  }
+  
+  .nav ul li {
+    list-style: none;
+    line-height: 50px;
+    display: inline-block;
+  }
+  
+  .nav ul li+li {
+    border-top: 1px solid black;
+  }
+  
+  .nav ul li a {
+    color: #d42d2d;
+    font-family: 'Palatino Linotype';
+    font-size: calc(12px + 1vw);
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 3vw;
+  }
+  .profile:before{
+    position: absolute;
+    left: 10px;
+    font-family: 'icomoon';
+    content: "\e971";
+  }
+  .messages:before{
+    position: absolute;
+    left: 10px;
+    font-family: 'icomoon';
+    content: "\e945";
+  }
+  .news:before{
+    position: absolute;
+    left: 10px;
+    font-family: 'icomoon';
+    content: "\e904";
+  }
+  .music:before{
+    position: absolute;
+    left: 10px;
+    font-family: 'icomoon';
+    content: "\e911";
+  }
+  .settings:before{
+    position: absolute;
+    left: 10px;
+    font-family: 'icomoon';
+    content: "\e994";
+  }
