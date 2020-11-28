@@ -23,19 +23,11 @@
     margin-right: 5vw;
   }
   
-  .history{
-    grid-area: his;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-auto-rows: 1fr;
-  }
-  
-  .post-title{
+  .post__title{
     font-size: calc(14px + 2vh);
     text-align: center;
   }
-  .post-interactive{
+  .post__interactive{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 4fr 0.3fr;
@@ -45,7 +37,7 @@
     margin: 0 auto;
     grid-row-gap: 5px;
   }
-  .post-interactive button{
+  .post__interactive button{
     grid-area: but;
     min-height: 5vh;
     color: white;
@@ -54,40 +46,22 @@
     font-weight: 800;
     font-size: 20px;
   }
-  .post-interactive textarea{
+  .post__interactive textarea{
     grid-area: txt;
     font-family: 'Times New Roman', Times, serif;
     resize: none;
     font-size: 1.5vw;
   }
   
-  .person img {
+  .person .img {
     max-width: 200px;
     max-height: 300px;
   }
-  .person-descr{
+  .person__description{
     font-size: calc(14px + 1vh);
     grid-area: des;
   }
-  span{
+  .span{
     color: #d42d2d;
     font-weight: 600;
-  }
-
-  .history-post{
-    padding-left: 10vw;
-    display: flex;
-  }
-  
-  .history-post img{
-    width: 64px;
-    height: 64px;
-  }
-  
-  .post-content{
-    margin-left: 1vw;
-  }
-  
-  .post-name{
-    color: #d42d2d;
   }

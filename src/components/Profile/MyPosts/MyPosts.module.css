@@ -1,0 +1,25 @@
+  .history{
+    grid-area: his;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: 1fr;
+  }
+  
+  .history__post{
+    padding-left: 10vw;
+    display: flex;
+  }
+  
+  .history__post img{
+    width: 64px;
+    height: 64px;
+  }
+  
+  .post__content{
+    margin-left: 1vw;
+  }
+  
+  .post__name{
+    color: #d42d2d;
+  }
