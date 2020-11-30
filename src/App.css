@@ -1,12 +1,17 @@
 .app-wrapper {
   display: grid;
-  grid-template-areas: 
-  "h h" 
-  "n c";
+  grid-template-areas: "h h" "n c";
   grid-template-rows: 84px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
   background-image: url('https://www.gotechnologix.com/wp-content/uploads/2016/05/dark-background-wallpaper.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.app-content {
+  grid-area: c;
+  background: rgba(51, 48, 56, 0.644);
+  color: white;
+  font-family: 'Palatino Linotype';
 }

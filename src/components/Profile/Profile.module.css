@@ -1,8 +1,4 @@
 .content {
-    grid-area: c;
-    background: rgba(51, 48, 56, 0.644);
-    color: white;
-    font-family: 'Palatino Linotype';
     display: grid;
     grid-template-areas: 
     'per des des'
