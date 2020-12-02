@@ -1,0 +1,48 @@
+.chats{
+display: grid;
+grid-template-columns: 2fr 10fr;
+padding: 10px;
+}
+
+.people{
+    border-right: 1px solid #d42d2d;
+    display: grid;
+    grid-template-rows: repeat(1fr, 5);
+    grid-auto-rows: 1fr;
+    row-gap: 1.5vh;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user p{
+    line-height: 14px;
+    font-size: calc(14px + 0.3vw);
+    padding-left: 1vw;
+    font-weight: 600;
+}
+
+.user img{
+    width: 64px;
+    height: 64px;
+    border: 1px solid #d42d2d;
+    border-radius: 100%;
+}
+
+.dialog{
+    display: grid;
+    row-gap: 2vh;
+    padding: 10px;
+}
+
+.message{
+    background-color: #d42d2d;
+    border-radius: 30px;
+    width: max-content;
+    align-items: center;
+    padding: 10px;
+    height: min-content;
+    padding: 10px 20px 10px 20px;
+}
