@@ -22,13 +22,16 @@
     border-top: 1px solid black;
   }
   
-  .nav ul li a {
+  a {
     color: #d42d2d;
     font-family: 'Palatino Linotype';
     font-size: calc(12px + 1vw);
     font-weight: 600;
     text-decoration: none;
     padding-left: 3vw;
+  }
+  a.active{
+    color: white;
   }
   .profile:before{
     position: absolute;
