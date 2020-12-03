@@ -15,12 +15,20 @@ padding: 10px;
 .user{
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: calc(14px + 0.3vw);
+}
+
+.user.active{
+    color: #d42d2d;
+    font-size: calc(14px + 0.8vw) !important;
 }
 
 .user p{
     line-height: 14px;
-    font-size: calc(14px + 0.3vw);
     padding-left: 1vw;
+    padding-right: 1vw;
     font-weight: 600;
 }
 

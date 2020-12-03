@@ -22,7 +22,11 @@
     border-top: 1px solid black;
   }
   
-  a {
+  .profile,
+  .messages,
+  .news,
+  .music,
+  .settings {
     color: #d42d2d;
     font-family: 'Palatino Linotype';
     font-size: calc(12px + 1vw);
